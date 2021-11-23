@@ -1,0 +1,273 @@
+/* headerContainer section start */
+
+.heroContainer {
+  width: 100%;
+  height: auto;
+  padding: 0% 0 7% 0;
+}
+
+.hero_text_box {
+  padding-top: 15%;
+}
+
+.hero_text_box h4 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  position: relative;
+  font-family: var(--font-para);
+}
+
+.hero_text_box h4:before {
+  content: "";
+  width: 6rem;
+  height: 0.3rem;
+  display: block;
+  position: absolute;
+  top: -130%;
+  left: 0;
+  background: var(--base-color);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.hero_text_box h1 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 4% 0;
+}
+
+.hero_text_box p {
+  color: var(--head-color);
+  font-size: 1.5rem;
+  margin-bottom: 10%;
+}
+
+.hero_image_box img {
+  max-width: 100%;
+}
+
+/* headerContainer section end */
+
+/* showcase section start */
+
+.showcaseSection {
+  width: 100%;
+  height: auto;
+  padding: 8% 0 5% 0;
+}
+
+.showcaseHeader {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.showcaseHeader h5 {
+  color: var(--head-color);
+  margin: 1% 0;
+}
+
+.showcaseHeader h4 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  margin: 1% 0;
+}
+
+.showcaseContainer {
+  width: 100%;
+  height: auto;
+}
+
+.showcaseCard {
+  text-align: center;
+}
+
+.showcaseContainer .showcaseCard img {
+  max-width: 100%;
+}
+
+.showcaseCard:nth-child(2) {
+  margin-top: 5%;
+}
+
+.showcaseCard h5 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  margin: 6% 0;
+  font-size: 1.4rem;
+}
+
+.showcaseCard h4 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  margin: 6% 0;
+  font-size: 1.6rem;
+}
+
+/* showcase section end */
+
+/* offer section start */
+
+.offerSection {
+  width: 100%;
+  height: auto;
+  padding: 8% 0;
+}
+
+.offerHeader {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.offerHeader h2 {
+  text-transform: capitalize;
+  color: var(--head-color);
+}
+
+/* offer section end */
+
+/* offer banner section start */
+
+.offerBanner {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+  background: url(../img/offer-banner-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.offer_text_box {
+  padding: 3% 0 3% 8%;
+}
+
+.offer_text_box h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--head-color);
+  text-transform: capitalize;
+  margin: 2% 0;
+}
+
+.offer_text_box h3 {
+  color: var(--head-color);
+  text-transform: capitalize;
+  margin: 2% 0;
+}
+
+.offer_text_box p {
+  color: var(--head-color);
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 2% 0 7% 0;
+}
+
+/* offer banner section end */
+
+/* testimonial section start */
+
+.testimonialSection {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+.testimonialHeader {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+  text-align: center;
+}
+
+.testimonialHeader h2 {
+  text-transform: capitalize;
+}
+
+.testimonialContainer {
+  width: 100%;
+  height: auto;
+}
+
+.testimonialCard {
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 2rem;
+  padding: 3% 2%;
+}
+
+.testimonialCard p {
+  color: var(--head-color);
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  letter-spacing: 0.05em;
+  margin: 2% 0 5% 0;
+}
+
+.star-icons {
+  margin: 8% 0;
+}
+
+.star-icons i {
+  font-size: 1.7rem;
+  padding: 0 1%;
+  color: var(--base-color);
+}
+
+.clientStatus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.clientStatus img {
+  max-width: 20%;
+  margin-right: 5%;
+}
+
+.clientStatus h5 {
+  text-transform: capitalize;
+  color: var(--head-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* testimonial section end */
+
+/* brand section start */
+
+.brandSection {
+  width: 100%;
+  height: auto;
+  padding: 5% 0 2% 0;
+}
+
+.brandContainer {
+  width: 100%;
+  height: auto;
+}
+
+.brandBox h4 {
+  color: var(--head-color);
+  font-size: 1.7rem;
+  margin-top: 25%;
+  text-transform: capitalize;
+}
+
+.brandBox img {
+  max-width: 60%;
+  opacity: 0.45;
+  transition: var(--transition);
+}
+
+.brandBox img:hover {
+  opacity: 1;
+}
+
+/* brand section end */

@@ -1,0 +1,49 @@
+/* account menu section start */
+
+.accountMenu {
+  min-height: 80vh;
+  float: left;
+  padding: 0% 0 0 3%;
+}
+
+.menuHeader {
+  text-transform: capitalize;
+}
+
+.menuHeader h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 2.5;
+  color: var(--head-color);
+}
+
+.menuContainer {
+  width: 100%;
+  height: auto;
+  padding: 3% 0;
+}
+
+.menuContainer ul {
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+}
+
+.menuContainer ul li {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-bottom-width: 0;
+  padding: 5% 0 5% 5%;
+}
+
+.menuContainer ul li:last-child {
+  border-bottom-width: 0.1rem;
+}
+
+.menuContainer ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: var(--base-color);
+}
+
+/* account menu section end */

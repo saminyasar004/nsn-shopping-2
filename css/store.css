@@ -1,0 +1,133 @@
+/* product section start */
+
+.productSection {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+.productHeader {
+  text-align: center;
+}
+
+.productHeader h2 {
+  text-transform: capitalize;
+  color: var(--head-color);
+}
+
+.productContainer {
+  width: 100%;
+  height: auto;
+  padding: 7% 0 2% 0;
+}
+
+.productBox {
+  cursor: pointer;
+  float: left;
+  margin: 1% 0 2% 0;
+  transition: all 0.5s;
+}
+
+.productBox:hover {
+  transform: translateY(-0.5rem);
+}
+
+.productBox a {
+  text-decoration: none;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.productImage img {
+  display: block;
+  margin: auto;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.productName {
+  text-align: center;
+  margin: 1% 0;
+}
+
+.productName h4 {
+  text-transform: capitalize;
+  color: var(--head-color);
+  font-size: 1.6rem;
+}
+
+.productStatus {
+  width: 100%;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.productStatus i {
+  color: var(--base-color);
+}
+
+.productPrice {
+  text-align: center;
+  margin: 1% 0;
+}
+
+.productPrice h5 {
+  color: var(--head-color);
+  text-transform: capitalize;
+}
+
+.paginationContainer {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+}
+
+.pagination {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.4rem;
+  list-style: none;
+}
+
+.pagination li {
+  margin: 0 0.8rem 0 0;
+}
+
+.pagination li a {
+  color: var(--base-color);
+  background: transparent;
+  border: 0.2rem solid var(--base-color);
+  border-radius: 0.3rem;
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+}
+
+.pagination li.active a,
+.pagination li:hover a {
+  color: var(--font-color);
+  background: var(--base-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+/* product section end */
+
+/* media query start */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .productContainer .span-1-of-4 {
+    width: 32.26%;
+  }
+}
+
+/* media query end */

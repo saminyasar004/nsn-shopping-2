@@ -1,0 +1,311 @@
+/* overview section start */
+
+.overview-container {
+  width: 100%;
+  height: auto;
+  padding: 4% 0 4% 0;
+}
+
+.img-container {
+  text-align: center;
+  overflow: hidden;
+}
+
+.img-container img {
+  max-width: 100%;
+  -webkit-user-drag: none;
+}
+
+.description-container {
+  text-transform: capitalize;
+}
+
+.pagepath-container {
+  padding: 3% 0 5% 0;
+}
+
+.page-path a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  color: var(--head-color);
+}
+
+.page-path {
+  font-size: 1.7rem;
+  color: var(--head-color);
+}
+
+.product-title {
+  padding: 0 0 3% 0;
+}
+
+.product-title h4 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.product-price {
+  padding: 0 0 3% 0;
+}
+
+.product-price h5 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.quantity {
+  width: 20%;
+  outline: none;
+  border: 0.1rem solid #c6c6c6;
+  color: var(--head-color);
+  padding: 1.2rem 1.2rem 1.2rem 1.4rem;
+}
+
+.product-description {
+  padding: 3% 0;
+  text-align: justify;
+}
+
+.product-description p {
+  line-height: 1.5;
+  color: var(--para-color);
+  text-transform: capitalize;
+}
+
+/* overview section end */
+
+/* review section start */
+
+.review-section {
+  width: 100%;
+  height: auto;
+  padding: 0% 0 5% 0;
+}
+
+.review-header {
+  text-align: left;
+}
+
+.review-header h5 {
+  text-transform: capitalize;
+  color: var(--head-color);
+  position: relative;
+  font-weight: 700;
+}
+
+.review-header h5::after {
+  content: "";
+  width: 6rem;
+  height: 0.3rem;
+  display: block;
+  position: absolute;
+  top: 145%;
+  left: 0%;
+  transform: translate(-0%, -145%);
+  background: var(--base-color);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.review-show {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+}
+
+.review-show-header {
+  padding: 2% 0;
+}
+
+.review-show-header h4 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.review-show-content-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0% 0 2% 0;
+  overflow: hidden;
+  margin-bottom: 1%;
+  border-bottom: 0.1rem solid rgb(0, 0, 0, 0.1);
+}
+
+.review-show-content-wrapper p {
+  text-transform: capitalize;
+}
+
+.review-image {
+  width: 8%;
+  height: auto;
+  float: left;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 0% 2% 0% 0%;
+  justify-content: center;
+}
+
+.review-image img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  object-position: 0% 0%;
+  border-radius: 50%;
+}
+
+.review-content {
+  width: 90%;
+  height: auto;
+  float: right;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.review-content-para p {
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+
+.review-content-rating {
+  padding: 1% 0;
+}
+
+.review-content-rating i {
+  color: var(--base-color);
+}
+
+.review-content-comment p {
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+
+#pending-comment-para {
+  font-style: italic;
+}
+
+.review-submit-container {
+  padding: 3%;
+  border: 0.1rem solid #efefef;
+}
+
+.review-submit-header h4 {
+  font-weight: 500;
+}
+
+.review-submit-header p {
+  text-transform: capitalize;
+  padding: 1% 0;
+}
+
+.review-submit-rating-header span {
+  text-transform: capitalize;
+}
+
+.review-submit-rating-icon {
+  padding: 1% 0 1% 0;
+}
+
+.review-submit-rating-icon i {
+  color: var(--base-color);
+  cursor: pointer;
+}
+
+.review-form-container {
+  width: 100%;
+  height: auto;
+  padding: 0% 0;
+}
+
+.form-group {
+  width: 100%;
+  height: auto;
+  padding: 0% 0%;
+  margin: auto;
+}
+
+.form-group .form-col {
+  width: 49.2%;
+  height: auto;
+  float: left;
+  padding: 2% 0%;
+}
+
+.form-group .form-col:last-child {
+  float: right;
+}
+
+.form-group label {
+  display: block;
+  margin: 2% 0;
+  text-align: left;
+  font-size: 1.6rem;
+  text-transform: none;
+  text-transform: capitalize;
+}
+
+.form-group label span {
+  color: var(--base-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.form-group input[type="email"],
+.form-group input[type="name"],
+.form-group input[type="text"],
+.form-group select {
+  height: 3.5rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid #e3e3e3;
+  border-radius: 0.5rem;
+  font-family: var(--font-para);
+  color: #555;
+}
+
+.form-group textarea {
+  width: 100%;
+  height: 7.5rem;
+  margin: 0;
+  color: #555;
+  resize: none;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid #e3e3e3;
+  border-radius: 0.5rem;
+  font-family: var(--font-para);
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="name"]:focus,
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 0.1rem 0.1rem rgba(0, 0, 0, 0.075),
+    0 0 0.8rem rgba(102, 175, 233, 0.6);
+}
+
+.form-group p {
+  text-transform: capitalize;
+  padding-bottom: 2%;
+}
+
+/* review section end */
+
+/* media query start */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .review-image {
+    width: 12%;
+  }
+
+  .review-content {
+    width: 87%;
+  }
+}
+
+/* media query end */

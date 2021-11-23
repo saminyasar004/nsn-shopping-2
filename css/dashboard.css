@@ -1,0 +1,40 @@
+/* dashboard section start */
+
+.dashboardContainer {
+  width: 100%;
+  min-height: 80vh;
+  padding: 3% 0;
+}
+
+.dashboardItems {
+  min-height: 80vh;
+  float: right;
+  padding: 8% 0 0 0;
+}
+
+.dashboardItems p:first-child {
+  font-size: 1.6rem;
+  padding-bottom: 5%;
+}
+
+.dashboardItems p:first-child span {
+  font-weight: bold;
+}
+
+.dashboardItems p:first-child a {
+  color: var(--base-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.dashboardItems p:last-child {
+  font-size: 1.6rem;
+}
+
+.dashboardItems p:last-child a {
+  color: var(--base-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* dashboard section end */

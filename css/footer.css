@@ -1,0 +1,30 @@
+/* footer section start */
+
+.footerSection {
+  width: 100%;
+  height: auto;
+  padding: 1% 0;
+  background: #313131;
+}
+
+.footerWidget img {
+  max-width: 50%;
+  cursor: pointer;
+}
+
+.footerWidget h6 {
+  color: var(--font-color);
+  text-transform: capitalize;
+  margin-top: 5%;
+}
+
+.authorLink {
+  color: var(--base-color);
+  text-decoration: none;
+}
+
+.authorLink:hover {
+  text-decoration: underline;
+}
+
+/* footer section end */

@@ -1,0 +1,246 @@
+/* basic style */
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+}
+
+::selection {
+  background: var(--base-color);
+  color: var(--font-color);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+:root {
+  --font-heading: "Montserrat", sans-serif;
+  --font-para: "Poppins", sans-serif;
+  --line-height: 1.4;
+  --letter-spacing: 0.02em;
+  --base-color: #ff523b;
+  --font-color: #fff;
+  --head-color: #415161;
+  --para-color: #415161;
+  --transition: all 0.3s;
+}
+
+body {
+  cursor: default;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-para);
+}
+
+/* re-usable components start */
+
+a {
+  color: var(--para-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-para);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
+
+span {
+  color: var(--para-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-para);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
+
+button {
+  color: var(--para-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-para);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
+
+p {
+  color: var(--para-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: var(--font-para);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+}
+
+h1 {
+  color: var(--head-color);
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+h2 {
+  color: var(--head-color);
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+  position: relative;
+}
+
+h3 {
+  color: var(--head-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+h4 {
+  color: var(--head-color);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+h5 {
+  color: var(--head-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+h6 {
+  color: var(--head-color);
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  margin: 0;
+}
+
+h2::after {
+  content: "";
+  width: 6rem;
+  height: 0.3rem;
+  display: block;
+  position: absolute;
+  top: 145%;
+  left: 50%;
+  transform: translate(-50%, -145%);
+  background: var(--base-color);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table thead th {
+  font-family: var(--font-heading);
+}
+
+table tbody td {
+  font-family: var(--font-para);
+}
+
+table thead {
+  background: var(--base-color);
+  color: var(--font-color);
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-size: 1.4rem;
+  line-height: var(--line-height);
+  font-family: var(--font-para);
+}
+
+label {
+  color: var(--para-color);
+  font-family: var(--font-para);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+/* re-usable components start */
+
+.row {
+  width: 100rem;
+  margin: 0 auto;
+}
+
+.activeLink {
+  color: var(--base-color) !important;
+}
+
+.activeCount {
+  color: var(--font-color);
+  background: var(--base-color);
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  color: var(--font-color);
+  background: var(--base-color);
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border: 0.2rem solid var(--base-color);
+  border-radius: 0.4rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  color: var(--base-color);
+  background: transparent;
+}
+
+.btnBlock {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+.php_error {
+  text-align: center;
+  color: var(--base-color);
+  margin: 2%;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* re-usable components end */
+
+/* media query */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .row {
+    width: calc(100% - 5rem);
+  }
+}

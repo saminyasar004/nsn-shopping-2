@@ -1,0 +1,80 @@
+/* product section start */
+
+.productSection {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+}
+
+.productHeader {
+  text-align: center;
+}
+
+.productHeader h2 {
+  text-transform: capitalize;
+  color: var(--head-color);
+}
+
+.productContainer {
+  width: 100%;
+  height: auto;
+  padding: 7% 0 2% 0;
+}
+
+.productBox {
+  cursor: pointer;
+  float: left;
+  margin: 1% 0 2% 0;
+  transition: all 0.5s;
+}
+
+.productBox:hover {
+  transform: translateY(-0.5rem);
+}
+
+.productBox a {
+  text-decoration: none;
+}
+
+.productImage {
+  width: 100%;
+}
+
+.productImage img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.productName {
+  text-align: center;
+  margin: 1% 0;
+}
+
+.productName h4 {
+  text-transform: capitalize;
+  color: var(--head-color);
+  font-size: 1.6rem;
+}
+
+.productStatus {
+  width: 100%;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.productStatus i {
+  color: var(--base-color);
+}
+
+.productPrice {
+  text-align: center;
+  margin: 1% 0;
+}
+
+.productPrice h5 {
+  color: var(--head-color);
+  text-transform: capitalize;
+}
+
+/* product section end */

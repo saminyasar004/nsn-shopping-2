@@ -1,0 +1,36 @@
+/* order container section start */
+
+.orderContainer {
+  width: 100%;
+  min-height: 80vh;
+  padding: 3% 0;
+}
+
+.orderItems {
+  min-height: 80vh;
+  float: right;
+  padding: 9% 0 0 0;
+}
+
+.orderItems table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0.1rem solid rgb(0, 0, 0, 0.1);
+  text-transform: capitalize;
+}
+
+.orderItems table tr {
+  text-align: center;
+}
+
+.orderItems table tr th {
+  padding: 4% 4%;
+  border: 0.1rem solid rgb(0, 0, 0, 0.1);
+}
+
+.orderItems table tr td {
+  padding: 5% 5%;
+  border: 0.1rem solid rgb(0, 0, 0, 0.1);
+}
+
+/* order container section end */

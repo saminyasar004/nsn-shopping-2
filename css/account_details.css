@@ -1,0 +1,69 @@
+/* account details section start */
+
+.accountDetails {
+  width: 100%;
+  min-height: 80vh;
+  padding: 3% 0;
+}
+
+.accountDetailsItems {
+  min-height: 80vh;
+  float: right;
+  padding: 5% 0 5% 0;
+}
+
+.formGroup {
+  width: 100%;
+  height: auto;
+  padding: 1% 2%;
+  margin: auto;
+}
+
+.formGroup .formCol {
+  width: 49.2%;
+  height: auto;
+  float: left;
+  padding: 2% 0%;
+}
+
+.formGroup .formCol:last-child {
+  float: right;
+}
+
+.formGroup label {
+  display: block;
+  margin: 2% 0;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.formGroup label span {
+  color: var(--base-color);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="username"],
+.formGroup input[type="email"],
+.formGroup input[type="password"] {
+  height: 3.5rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid #e3e3e3;
+  border-radius: 0.5rem;
+  font-family: var(--font-para);
+  color: #555;
+}
+
+.formGroup input[type="text"]:focus,
+.formGroup input[type="username"]:focus,
+.formGroup input[type="email"]:focus,
+.formGroup input[type="password"]:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* account details section end */

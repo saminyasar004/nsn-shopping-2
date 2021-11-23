@@ -1,0 +1,68 @@
+/* contact section start */
+
+.contactSection {
+  width: 100%;
+  height: auto;
+  padding: 2% 0;
+}
+
+.contactHeader {
+  padding: 1% 0 8% 0;
+  position: relative;
+}
+
+.contactHeader::after {
+  content: "";
+  width: 12rem;
+  height: 0.2rem;
+  display: block;
+  position: absolute;
+  top: 85%;
+  left: 0%;
+  transform: translate(0%, -85%);
+  background: var(--base-color);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.contactHeader h1 {
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.8;
+  font-family: var(--font-para);
+}
+
+.contactHeader p {
+  text-transform: capitalize;
+}
+
+.contactDetails {
+  width: 100%;
+  height: auto;
+  padding: 0 0 5% 0;
+}
+
+.contactGroup {
+  width: 100%;
+  height: auto;
+  padding: 1% 0;
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+.contactGroup i {
+  color: var(--base-color);
+  font-size: 1.9rem;
+}
+
+.contactGroup p {
+  text-transform: capitalize;
+}
+
+.contactGroup p.contactEmail {
+  text-transform: none;
+}
+
+/* contact section end */
