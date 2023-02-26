@@ -34,12 +34,12 @@ Please follow the below instructions to run this project in your machine:
    ```
 1. Enter to the project root directory (nsn-shopping-2)
 1. Go to database folder on the root directory (nsn-shopping-2)
-1. Select the e-commerce.sql file (nsn-shopping-2)
+1. Select the nsn-shopping-2.sql file (nsn-shopping-2)
 1. Open your favourite browser and hit
    ```sh
    https://localhost/phpmyadmin
    ```
-1. Now click `New` from the top left corner & create a table named `e-commerce`.
+1. Now click `New` from the top left corner & create a table named `nsn-shopping-2`.
 1. Now click Import from your database menu (right corner)
 9. Then upload the selected sql file from 6 no. line
 1. Now open a new tab on your favourite browser, then hit
