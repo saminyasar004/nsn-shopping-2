@@ -8,7 +8,7 @@ session_start();
 $db_host = "localhost";
 $db_username = "root";
 $db_password = "";
-$db_name = "e-commerce";
+$db_name = "nsn-shopping-2";
 $timezone = "Asia/Dhaka";
 $time_format = "d M Y";
 $currency = "$";
